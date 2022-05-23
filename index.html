@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/styls.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <img src="img/Logo.png" id="aluraLogo">
+        <input type="text" id="txtEncriptador" placeholder="Ingrese el texto aqui">
+        <div id="respuesta">
+            <div id="imagenMuñeco">
+                <img src="img/Muñeco.png">
+            </div>
+            <div id="bloqueDeRespuesta">
+
+
+                <div id="respuestaTextos">
+                    <div id="txtNigunMensaje">
+                        <h1>Ningun mensaje fue encontrado</h1>
+                    </div>
+                    <p id="txtIngreseTexto">Ingresa el texto que desee encriptatar o desencriptar</p>
+                </div>
+            </div>
+
+
+            <input type="button" value="Copiar" class="btnCopiar" id="btnCopiar">
+        </div>
+        <div id="cajaBotones">
+            <p id="txtLetrasMinusculas">&#9888 Solo letras minúsculas</p>
+            <input type="button" value="Encriptar" id="btnEncriptar">
+            <input type="button" value="Desencriptar" id="btnDesencriptar">
+        </div>
+    </main>
+
+
+    <footer id="autor">
+        <p>Autor: Ricardo Apuy Muñoz<br>
+            Email:<a href="mailto:ricardo96apuy@gmail.com">ricardo96apuy@gmail.com</a>
+        </p>
+    </footer>
+    <script src="JS/funciones.js"></script>
+</body>
+
+</html>
